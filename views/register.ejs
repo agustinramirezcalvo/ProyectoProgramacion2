@@ -2,19 +2,7 @@
 <html lang="es">
 <!-- Include Head -->
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link width="" rel="shortcut icon" href="./images/logo-mercado-liebre.jpg" />
-
-	<title> Mercado Liebre Argentina</title>
-	<!-- Font Awesome Stylesheet -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-	<!-- Bootstrap Grid Stylesheet -->
-	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-	<!-- Own Stylesheet -->
-	<link rel="stylesheet" href="./css/app.css">
-</head>
+<%- include('./partials/head')  %> 
 
 <body>
 	<!-- Header -->
@@ -85,12 +73,15 @@
 				<h2 class="products-title">Registrate</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
-			<h2 class="col-12"> <i>///////////////////////////////////////// <br> Acá va el formulario de registro. <br>
+			<label for="email">ingrese su email</label>
+
+			<input type="email" id="email" pattern="">
+			<!--<h2 class="col-12"> <i>///////////////////////////////////////// <br> Acá va el formulario de registro. <br>
 			Debe cumplir con los puntos de la consigna y ser coherente con la tabla de la base de datos <br>
 			Eliminen estás líneas y coloquen el formulario. <br>
 			Recuerden todo lo que necesita tanto la etiqueta form como los campos input para operar correctamtente</i> <br>
 			////////////////
-			</h2>
+			</h2> -->
 
 
 	<!-- footer -->
