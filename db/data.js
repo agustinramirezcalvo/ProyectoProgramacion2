@@ -13,7 +13,7 @@ const data = {
             color: 'Verde',
             género: 'Streetwear',
             año: '2022',
-            foto: ''
+            foto: 'https://http2.mlstatic.com/D_NQ_NP_693833-MLA31123237313_062019-O.webp'
         },
         {
             marca: 'Vans',
@@ -49,42 +49,27 @@ const data = {
         },
         {
             marca: 'Converse x Keith Haring',
-            modelo: 'Chuck 70',
-            color: 'Blanco y negro',
-            género: 'Streetwear',
-            año: '2022',
-            foto: ''
+            descripcion: 'Con un estilo inspirado en Keith Haring, los motivos bordados en blanco y negro en la parte superior representan sus figuras de arte pop con detalles de color rojo.',
+            foto: ""
         },
         {
             marca: 'Maison Margiela',
-            modelo: 'Botas Tabi',
-            color: 'Marrón',
-            género: 'Streetwear',
-            año: '2022',
+            descripcion: 'Este calzado esta inspirado en los tradicionales calcetines japoneses del siglo XV que reciben el mismo nombre.',
             foto: ''
         },
         {
             marca: 'Rick Owens',
-            modelo: 'DRKSHDW',
-            color: 'Negro y blanco',
-            género: 'Streetwear',
-            año: '2022',
+            descripcion: 'Estas zapatillas cargo están por encima del tobillo y llevan ocho ojales, cordones, cremallera lateral para facilitar el cierre, bolsillo cargo con cremallera en el exterior del tobillo, puntera y suela de dientes de tiburón.',
             foto: ''
         },
         {
             marca: 'Snow Peak y New Balance',
-            modelo: 'Niobium Concept 2',
-            color: 'Verde y negro',
-            género: 'Running',
-            año: '2021',
+            descripcion: 'Los zapatos Niobium de Tokyo Design Studio New Balance (TDS) se basan en los conceptos de utilidad y transformación.',
             foto: ''
         },
         {
             marca: 'New Balance by Kith',
-            modelo: '992',
-            color: 'Azul y blanco',
-            género: 'Streetwear',
-            año: '2020',
+            descripcion: 'Una colaboración de New Balance con Kith lanzada en 2020',
             foto: ''
         }
     ]
