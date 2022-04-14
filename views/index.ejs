@@ -11,7 +11,7 @@
 	
 	<!-- Banner -->
 	<div class="banner">
-		<img src="images/img-home-banner.jpg" alt="Banner de ofertas">
+		<img src="images/bannernuevo.jpg" alt="Banner de ofertas">
 	</div>
 	<!-- /Banner -->
 
@@ -28,12 +28,12 @@
 					<section class="product-box">
 						<a href="/product">
 							<figure class="product-box_image">
-								<img src= <%=productos[i].foto  %>  alt="Zapatilla">
+								<img src= <%= productos[i].foto %>  alt="Zapatilla">
 							</figure>
 							<article class="product-box_data">
 								<h2> <%= productos[i].marca %> </h2>
 								<p> <%= productos[i].modelo %> </p>
-								<p>Comentarios: 12</p>
+								<p>Comentarios: 5</p>
 							</article>
 						</a>
 					</section>
@@ -55,7 +55,7 @@
 				<section class="product-box">
 					<a href="/product">
 						<figure class="product-box_image">
-							<img src= <%=productos[i].foto  %>  alt="Zapatilla">
+							<img src= <%= productos[i].foto  %>  alt="Zapatilla">
 						</figure>
 						<article class="product-box_data">
 							<h2> <%= productos[i].marca %> </h2>

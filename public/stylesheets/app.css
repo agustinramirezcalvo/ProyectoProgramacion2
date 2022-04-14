@@ -1,5 +1,8 @@
 /*====== Fonts ======*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Barlow+Condensed&family=Montserrat&family=Nanum+Gothic&family=Noto+Sans:wght@300&family=Raleway:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Barlow+Condensed&family=Montserrat&family=Nanum+Gothic&family=Noto+Sans:wght@300&family=Quicksand:wght@300&family=Raleway:ital,wght@0,300;1,300&display=swap');
 
 
 /*====== Variables ======*/
@@ -10,6 +13,7 @@
   --gray: #666666;
   --light-gray: #ebebeb;
   --green: #39b54a;
+  --black: #000000;
   --base-font-family: 'Roboto', sans-serif
 }
 
@@ -29,7 +33,7 @@ body {
 body {
   font-family: var(--base-font-family);
   font-weight: 300;
-  background-color: var(--light-gray);
+  background-color: white;
 }
 
 ul,
@@ -68,7 +72,7 @@ hr {
 /*====== Main Header ======*/
 .main-header {
   padding: 15px 0;
-  background-color: var(--yellow);
+  background-color: rgb(255, 255, 255);
 }
 
 .main-header_home-link,
@@ -80,6 +84,7 @@ hr {
   font-size: 1.5em;
   margin-top: 20px;
   text-align: center;
+  color: black;
 }
 
 .search-form {
@@ -96,6 +101,8 @@ hr {
   border-radius: 3px;
   height: 40px;
   font-size: 1.5em;
+  font-family: 'Quicksand';
+  font-weight: 480;
 }
 
 .search-form_button {
@@ -110,7 +117,12 @@ hr {
 }
 
 
+
 /*====== Main Navbar ======*/
+
+.main-header_credit-link{
+  font-family: 'Quicksand';
+}
 .btn-toggle-navbar {
   background-color: var(--dark-blue);
   color: #ffffff;
@@ -123,13 +135,16 @@ hr {
 }
 
 .main-navbar {
-  margin-top: 20px;
+  margin-top: 8px;
   display: none;
 }
 
 .left-navbar,
 .right-navbar {
   font-size: 1.5em;
+  color: black;
+  font-family: 'Quicksand';
+  font-weight: 450;
 }
 
 .logout{
@@ -140,7 +155,7 @@ hr {
 }
 
 .logout:hover{
-  color: #1259c3;
+  color: #5c5c5c;
 }
 
 .left-navbar a,
@@ -154,11 +169,10 @@ hr {
 
 /*====== Banner ======*/
 .banner {
-  background-image: url(/images/img-home-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100px;
+  height: 10px;
 }
 
 
@@ -166,12 +180,15 @@ hr {
 .products-wrapper {
   margin-top: 30px;
   margin-bottom: 30px;
+  background-color: var(--light-gray);
+  padding-bottom: 30px;
 }
 
 .products-title {
-  font-size: 2.4em;
-  font-weight: 400;
+  font-size: 3.6em;
+  font-weight: 300;
   color: var(--gray);
+  font-family: 'Raleway';
 }
 
 .product-box {
@@ -189,6 +206,7 @@ hr {
 .product-box_image {
   border-bottom: 1px solid var(--light-gray);
 }
+  
 
 .product-box_data {
   padding: 15px;
@@ -200,8 +218,10 @@ hr {
 
 .product-box_data h2 {
   font-size: 2.4em;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0;
+  font-family: 'Montserrat';
+  color: rgb(0, 0, 0);
 }
 
 .product-box_data span {
@@ -219,6 +239,7 @@ hr {
   height: 0;
   transition: 300ms;
   overflow: hidden;
+  font-family: 'Montserrat';
 }
 
 .product-box_data i {
@@ -257,6 +278,7 @@ hr {
   box-shadow: 0 0 5px var(--green);
 }
 
+
 /*====== Footer ======*/
 .main-footer {
   background-color: #ffffff;
@@ -277,12 +299,14 @@ hr {
   color: var(--gray);
   font-size: 2.4em;
   font-weight: 400;
+  font-family: 'Montserrat';
 }
 
 .footer-data p {
   color: var(--gray);
   font-size: 1.5em;
   font-weight: 300;
+  font-family: 'Montserrat';
 }
 
 .sub-footer {
@@ -325,6 +349,8 @@ hr {
   padding: 15px 15px 15px 40px;
   font-size: 1.8em;
   line-height: 1.5;
+  font-family: 'Montserrat';
+  color: rgb(61, 61, 61);
 }
 
 .product-detail-price {
@@ -421,6 +447,7 @@ hr {
 }
 .comments .user{
   font-size: 1.7em;
+  font-family: 'Montserrat';
 }
 
 /*====== Formularios ======*/
@@ -440,6 +467,8 @@ hr {
   border: none;
   border: solid 1px var(--gray);
   padding: 0 15px;
+  font-family: 'Quicksand';
+  font-weight: 480;
 }
 
 .error{
@@ -451,6 +480,15 @@ textarea.form-input {
   min-height: 140px;
   resize: vertical;
   padding: 15px;
+}
+.formadd {
+  margin: 50px;
+}
+.formaddbutton{
+  margin-left: 80px;
+}
+.buy-now-button{
+  font-family: 'Quicksand';
 }
 
 /*====== Profile ======*/

@@ -13,15 +13,29 @@
 	<div class="container products-wrapper">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="products-title">Agregar productos</h2>
+				<h2 class="products-title">Agrega tus productos</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
-			<h2 class="col-12"> <i>///////////////////////////////////////// <br> Acá va el formulario para agregar prodcutos al catálogo. <br>
-			Debe cumplir con los puntos de la consigna y ser coherente con la tabla de la base de datos. <br>
-			Eliminen estás líneas y coloquen el formulario. <br>
-			Recuerden todo lo que necesita tanto la etiqueta form como los campos input para operar correctamtente</i> <br>
-			////////////////
-			</h2>
+			
+			<div class="formadd">
+                <form method="GET" class="search-form">
+                    <input type="text" name="search" placeholder="Marca" class="search-form_input">
+                </form>
+            </div>
+			<div class="formadd">
+                <form method="GET" class="search-form">
+                    <input type="text" name="search" placeholder="Modelo" class="search-form_input">
+                </form>
+            </div>
+			<div class="formadd">
+                <form action="/" method="GET" class="search-form">
+                    <input type="text" name="search" placeholder="Descripción" class="search-form_input">
+                    <button type="submit" class="formaddbutton"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+		</div>
+	</div>
+
 
 
 	<!-- footer -->
