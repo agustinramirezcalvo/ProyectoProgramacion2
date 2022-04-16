@@ -20,19 +20,23 @@
 			<!-- FORMULARIO DE LOGIN -->
 			<div class="col-12">
 			<!--Usuario-->
-			<div class="row mb-2">
-			<label for="usuario" class="col-1">Usuario:</label>
-			<input type="email" id="usuario" name="usuario" class="col-3"></div>
+			<div class="formadd">
+                <form method="GET" class="search-form">
+                    <input type="email" name="Usuario" placeholder="Usuario" class="search-form_input">
+                </form>
+            </div>
 			<!--contraseña-->
-			<div class="row mb-2">
-			<label for="contraseña" class="col-1">Contraseña:</label>
-			<input type="password" id="contraseña" name="contraseña" class="col-3"></div>
+			<div class="formadd">
+                <form method="GET" class="search-form">
+                    <input type="password" name="Contraseña" placeholder="Contraseña" class="search-form_input">
+                </form>
+            </div>
 			<!--recordarme-->
-			<div class="row mb-2">
-			<label for="recordarme" class="col-1">Recordarme</label>
-			<input type="checkbox" id="recordarme" name="recordarme" class="col-3"></div>
-			</div>
-
+			<div class="formadd">
+                <form method="GET" class="search-form">
+                    <input type="checkbox" name="recordarme" placeholder="Recordarme" class="search-form_input">
+                </form>	
+            </div>
 	<!-- footer -->
 	<%- include("./partials/footer")  %>
 	<!-- /footer -->
