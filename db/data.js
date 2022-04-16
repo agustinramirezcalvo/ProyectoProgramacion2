@@ -85,27 +85,27 @@ const data = {
         {
         usuario: 'Olivia Solessio',
         comentario: 'Muy buenas zapatillas.',
-        fotoDePerfil:''
+        fotoDePerfil:'https://www.visa.com.ar/dam/VCOM/global/run-your-business/images/woman-using-mobile-640x640.jpg'
         },
         {
         usuario: 'Tobias Miranda',
         comentario: 'No encontre de mi talle. Una pena, parecen muy prácticas',
-        fotoDePerfil:''
+        fotoDePerfil:'https://www.visa.com.ar/dam/VCOM/global/run-your-business/images/woman-using-mobile-640x640.jpg'
         },
         {
         usuario: 'Nicolás Block',
         comentario: 'No tiene  el agarre que esperaba. Creo que deberia cambiar de talle. ¿Tienen en 41?.',
-        fotoDePerfil:''
+        fotoDePerfil:'https://www.visa.com.ar/dam/VCOM/global/run-your-business/images/woman-using-mobile-640x640.jpg'
         },
         {
         usuario: 'Zoe Gonzalez',
         comentario: 'No me gustaron. Son prácticas pero al ver el diseño cuando me llegaron pense que iban a ser distintas. De todas formas, muy buena calidad',
-        fotoDePerfil:''
+        fotoDePerfil:'https://www.visa.com.ar/dam/VCOM/global/run-your-business/images/woman-using-mobile-640x640.jpg'
         },
         {
-        usuario: 'Federico Balberde',
+        usuario: 'Lola Biscay',
         comentario: 'La verdad que son un modelo muy lindo. Me gusta la explicación. Son muy comodas y prácticas. Las puedo usar para ir a comer o para salir a correr. Muy buen producto',
-        fotoDePerfil:''
+        fotoDePerfil:'https://www.visa.com.ar/dam/VCOM/global/run-your-business/images/woman-using-mobile-640x640.jpg'
         }
     ],
 }
