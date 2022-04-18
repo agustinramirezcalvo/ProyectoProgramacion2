@@ -4,11 +4,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-// Importo estos archivos y los guardo en una variable
-var indexRouter = require('./routes/index');
+// Importo archivos y guardo una variable
+var indexRouter = require('./routes/index'); 
 const profileRouter = require('./routes/profile');
-const productRouter = require('./routes/product'); // Requiero product. El archivo que voy a querer usar
-//var profileRouter = require('./routes/profile');
+const productRouter = require('./routes/product'); 
 
 var app = express();
 
@@ -22,11 +21,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Definiendo cuando los voy a querer usar
-app.use('/', indexRouter); // Cuando aparezca una / entra a index y también quiero utilizar indexRouter
-app.use('/profile', profileRouter); // Cuando aparezca /profile entra a profile
-app.use('/product', productRouter); // Cuando aparezca /product entra a product
-//app.use('/profile', profileRouter);
+// Prefijo
+app.use('/', indexRouter); 
+app.use('/profile', profileRouter); 
+app.use('/product', productRouter); 
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

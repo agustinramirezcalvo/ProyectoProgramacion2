@@ -1,8 +1,9 @@
-var express = require('express');
-var router = express.Router();
-const indexController = require('../controllers/indexController')
+var express = require('express'); 
+var router = express.Router(); // Método de Express
 
-router.get('/', indexController.index);
+const indexController = require('../controllers/indexController') 
+
+router.get('/', indexController.index); 
 router.get('/search', indexController.search);
 
 module.exports = router;

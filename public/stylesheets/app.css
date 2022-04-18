@@ -485,9 +485,15 @@ textarea.form-input {
   margin: 50px;
 }
 .formaddbutton{
-  margin-left: 80px;
+  margin-left: 20px;
+  font-family: 'Quicksand';
+  font-weight: 100;
+
 }
 .buy-now-button{
+  font-family: 'Quicksand';
+}
+.mt-5 {
   font-family: 'Quicksand';
 }
 
@@ -514,6 +520,8 @@ textarea.form-input {
   padding: 10px 20px;
   border-radius: 4px;
   color: #fff;
+  font-family: 'Quicksand';
+
 }
 
 .img-container{
